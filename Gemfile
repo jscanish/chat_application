@@ -6,7 +6,6 @@ gem 'volt-bootstrap_jumbotron_theme', '~> 0.1.0'
 gem 'volt-user_templates', '~> 0.1.3'
 
 group :development, :test do
-  # Testing dependencies
   gem 'rspec', '~> 3.2.0'
   gem 'opal-rspec', '~> 0.4.2'
   gem 'capybara', '~> 2.4.2'
