@@ -2,5 +2,10 @@
   Home
 
 <:Body>
-  <h1>Home</h1>
+  <h1>Users</h1>
 
+  {{ _users.each do |user| }}
+    <div class='row'>
+      {{ user._name }}
+    </div>
+  {{ end }}
